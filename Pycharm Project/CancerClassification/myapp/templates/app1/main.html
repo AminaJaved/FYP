@@ -1,0 +1,139 @@
+{% extends 'base.html' %}
+{% load static from staticfiles %}
+{% block title %}Main Page{% endblock %}
+
+{% block main %}
+    <section>
+        <section class="sec5">
+            <div id="slider">
+                <figure>
+                    <img src="{% static 'app1/images/desk2.png'%}" alt="">
+                    <img src="{% static 'app1/images/brain1.png'%}" alt="">
+                    <img src="{% static 'app1/images/desk2.png'%}" alt="">
+                    <img src="{% static 'app1/images/blood.png'%}" alt="">
+                    <img src="{% static 'app1/images/desk2.png'%}" alt="">
+                </figure>
+            </div>
+        </section>
+        <section class="sec4">
+            <div class="services">
+                <div class="inner">
+                    <h1>Our Services</h1>
+                    <div class="ser">
+                        <div class="serr">
+                            <img src="{% static 'app1/images/cancer_11.jpg'%}" alt="">
+                            <div class="ser-name">
+                            <a href="http://127.0.0.1:8000/cancer" style="background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;">Cancer Analysis</a>
+                            </div>
+                        </div>
+
+
+                        <div class="serr">
+                            <img src="{% static 'app1/images/abc.jpg'%}">
+                            <div class="ser-name">
+                            <a href="#" style="background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; ">Drug Recomendation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec2" id="check">
+            <h2 style="text-align: center;">Our Mission</h2>
+            <p>Our mission is to alleviate the suffering of patients with cancer through the application of modern methods of curative and palliative therapy irrespective of their ability to pay.Our mission is to alleviate the suffering of patients with cancer through the application of modern methods of curative and palliative therapy irrespective of their ability to pay Our mission is to alleviate the suffering of patients with cancer through the application of modern methods of curative and palliative therapy irrespective of their ability to pay Our mission is to alleviate the suffering of patients with cancer through the application of modern methods of curative and palliative therapy irrespective of their ability to pay Our mission is to alleviate the suffering of patients with cancer through the application of modern methods of curative and palliative therapy irrespective of their ability to pay Our mission is to alleviate the suffering of patients with cancer through the application of modern methods of curative and palliative therapy irrespective of their ability to pay ”</p>
+        </section>
+
+        <section class="sec3">
+            <div class="team-section">
+                <div class="inner-width">
+                    <h1>Our Team</h1>
+                    <div class="pers">
+                        <div class="pe">
+                            <img src="{% static 'app1/images/Tabi.jpg'%}" alt="">
+                            <div class="p-name">
+                                Tayyaba
+                            </div>
+                            <div class="p-des">Designer</div>
+                            <div class="p-sn">
+                                <a href="https://www.facebook.com/TayyabaRasheedAhmad"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.twitter.com/knownAsTabi"><i class="fa fa-twitter"></i></a>
+                                <a href="https://instagram.com/tasveerr.grapher"><i class="fa fa-instagram"></i></a>
+                            </div>
+                         </div>
+
+
+                        <div class="pe">
+                            <img src="{% static 'app1/images/Sidra.jpg'%}" alt="">
+                            <div class="p-name">
+                                Sidra Mushtaq
+                            </div>
+                            <div class="p-des">Designer</div>
+                            <div class="p-sn">
+                                <a href="https://www.facebook.com/sidra.jasmine.5"><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com/sidramushtaq222"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="pe">
+                            <img src="{% static 'app1/images/Amina.jpg'%}" alt="">
+                            <div class="p-name">
+                                 Amina Irshad
+                            </div>
+                            <div class="p-des">Designer</div>
+                            <div class="p-sn">
+                                <a href="https://www.facebook.com/Amina"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.twitter.com/AminaJaved420"><i class="fa fa-twitter"></i></a>
+                                <a href="https://instagram.com/amina_irshad_ahmed"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="pe">
+                            <img src="{% static 'app1/images/Azaan.jpg'%}" alt="">
+                            <div class="p-name">
+                                 Amina Javed
+                            </div>
+                            <div class="p-des">Designer</div>
+                            <div class="p-sn">
+                                <a href="https://www.facebook.com/aminajaved.javed"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.twitter.com/AminaJaved420"><i class="fa fa-twitter"></i></a>
+                                <a href="https://instagram.com/javi_azaan"><i class="fa fa-instagram"></i></a>
+
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+    </section>
+{% endblock %}
+<script type="text/javascript">
+          var text = document.getElementById('text');
+        var newDom = '';
+        var animationDelay = 6;
+
+        for(let i = 0; i < text.innerText.length; i++)
+        {
+            newDom += '<span class="char">' + (text.innerText[i] == ' ' ? '&nbsp;' : text.innerText[i])+ '</span>';
+        }
+
+        text.innerHTML = newDom;
+        var length = text.children.length;
+
+        for(let i = 0; i < length; i++)
+        {
+            text.children[i].style['animation-delay'] = animationDelay * i + 'ms';
+        }
+
+</script>

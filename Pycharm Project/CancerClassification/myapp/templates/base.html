@@ -1,0 +1,104 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="{% static 'app1/Plugins/smooth-scroll/jquery-3.0.0.min.js'%}"></script>
+    <script src="{% static 'app1/Plugins/smooth-scroll/smooth-scroll.js'%}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'app1/CSS1/font-awesome.min.css' %}">
+    <link rel='stylesheet' href="{% static 'app1/CSS1/all.css' %}">
+    <link rel="stylesheet" href="{% static 'app1/CSS1/demo.css'%}">
+    <link rel="stylesheet" href="{% static 'app1/CSS1/footer-distributed-with-address-and-phones.css'%}">
+    <link rel="stylesheet" href="{% static 'app1/CSS1/font-awesome.min1.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'app1/CSS1/css.css' %}">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel = "stylesheet" type = "text/css" href = "{% static 'base.css' %}">
+    <link rel = "stylesheet" type = "text/css" href = "{% static 'app1/CSS/main.css' %}">
+
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous" />
+    <title>{% block title %}CC{% endblock %}</title>
+</head>
+<body>
+   <nav>
+
+        <ul>
+            <li  ><a href="http://127.0.0.1:8000">Home</a></li>
+            <li ><a href="http://127.0.0.1:8000/contact">Contact</a></li>
+            <li ><a href="#">About</a></li>
+            <li ><a href="http://127.0.0.1:8000/BLOG-LIST">Blog</a></li>
+
+        </ul>
+    </nav>
+
+{% block main %}
+{% endblock %}
+
+{%  block classify %}
+{% endblock %}
+
+{%  block contact %}
+{% endblock %}
+
+{% block blog_list %}
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}
+
+{% block blog_detail %}
+{% endblock %}
+
+</body>
+<footer class="footer-distributed " style="background: black">
+    <div class="footer-left">
+        <h3>Cancer<span>Classification</span></h3>
+        <p class="footer-links">
+            <a href="http://127.0.0.1:8000">Home</a>
+          ·
+            <a href="http://127.0.0.1:8000/BLOG-LIST">Blog</a>
+          ·
+            <a href="#">About</a>
+          ·
+            <a href="http://127.0.0.1:8000/contact">Contact</a>
+        </p>
+        <p class="footer-company-name">Company Name &copy; 2019</p>
+    </div>
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Al-Khawarzami institute of Computer Science</span> UET, Lahore</p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+92320-0478008</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">kics@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About the company</span>
+          Our purpose is to safe lives of millions, by turning on the bulb of hope.
+        </p>
+        <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+    </div>
+
+</footer>
+
+</html>

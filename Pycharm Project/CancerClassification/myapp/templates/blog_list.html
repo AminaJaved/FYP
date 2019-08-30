@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block blog_list %}
+<style>
+    body {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        background-color: #fdfdfd;
+    }
+
+    .head_text {
+        color: white;
+    }
+
+    .card {
+        box-shadow: 0 16px 48px #E3E7EB;
+    }
+    .btn-danger {
+            color: #fff;
+            background-color: #f00000;
+            border-color: #dc281e;
+        }
+    .shadow {
+            box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+    }
+    .masthead {
+            background: white;
+            height: auto;
+            padding-bottom: 15px;
+            box-shadow: 0 16px 48px #E3E7EB;
+            padding-top: 30px;
+        }
+</style>
+    <header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h3 class=" site-heading my-4 mt-3 text-black"> Welcome to my awesome Blog </h3>
+                    <p class="text-black">We Love Django As much as you do..! &nbsp
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-md-8 mt-3 left">
+            {% for Blog in BlogList %}
+            <div class="card mb-4">
+                <div class="card-body">
+                     <h2 class="card-title">{{ Blog.title }}</h2>
+                    <p class="card-text text-muted h6">{{ Blog.Author }} | {{ Blog.created_on}} </p>
+                    <p class="card-text">{{Blog.content|slice:":200" }}</p>
+                    <a href="{% url 'BLOG-DETAIL' Blog.slug  %}" class="btn btn-primary">Read More &rarr;</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{%endblock%}
