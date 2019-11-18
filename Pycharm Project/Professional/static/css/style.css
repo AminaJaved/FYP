@@ -367,7 +367,7 @@ ul.top_agile_w3l_info_icons i {
 /*--//slider --*/
 /*-- banner-top --*/
 .w3layouts-banner-top{
-    background: url(../images/banner.jpg) no-repeat 0px 0px;
+    background: url(../images/cancer1.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -376,7 +376,7 @@ ul.top_agile_w3l_info_icons i {
 	min-height:700px;
 }
 .w3layouts-banner-top1{
-	background: url(../images/banner1.jpg) no-repeat 0px 0px;
+	background: url(../images/cancerr.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -385,7 +385,7 @@ ul.top_agile_w3l_info_icons i {
 	min-height:700px;
 }
 .w3layouts-banner-top2{
-	background: url(../images/banner3.jpg) no-repeat 0px 0px;
+	background: url(../images/Capture.PNG) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -674,7 +674,7 @@ h5.w3l-subtitle {
 }
 /*-- /agents --*/
 .agents {
-    background: url(../images/footer.jpg)no-repeat 0px 0px;
+    /*--background: url(../images/footer.jpg)no-repeat 0px 0px;--*/
     background-size: cover;
     padding: 0;
     min-height:650px;
@@ -942,7 +942,7 @@ ul.social-icons .icon-border::after {
 	-ms-transform: scaleX(1);
 }
 .w3_agile_services_bottom_right_grid{
-	background: url(../images/slid1.jpg) no-repeat 0px 0px;
+	background: url(../images/cancer1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -950,7 +950,7 @@ ul.social-icons .icon-border::after {
     -o-background-size: cover;
 }
 .w3_agile_services_bottom_right_grid1{
-	background: url(../images/slid2.jpg) no-repeat 0px 0px;
+	background: url(../images/cancerr.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -958,7 +958,7 @@ ul.social-icons .icon-border::after {
     -o-background-size: cover;
 }
 .w3_agile_services_bottom_right_grid2{
-	background: url(../images/slid3.jpg) no-repeat 0px 0px;
+	background: url(../images/Capture.PNG) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1461,7 +1461,7 @@ figure.effect-apollo:hover figcaption::before {
 /*-- contact --*/
 /*-- //contact --*/
 .banner1 {
-    background: url(../images/banner.jpg) no-repeat 0px -99px;
+    background: url('/static/images/cancer1.jpg') no-repeat 0px -99px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2426,7 +2426,7 @@ p.wickedpicker__title {
 	height: 32px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/arrow.png) no-repeat 0px 0px;
+	background: url('/static/images/arrow.png') no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 32px;
@@ -2993,7 +2993,7 @@ ul.agileits_social_list.two li {
 		margin: 0.1em 0 0.2em 0;
 	}
 	.banner1 {
-		background: url(../images/banner.jpg) no-repeat 0px 0px;
+		background: url('/static/images/cancer1.jpg') no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -3061,7 +3061,7 @@ ul.agileits_social_list.two li {
 		font-size: 0.9em;
 		margin: 0;
 		margin-bottom: 2em;
-		letter-spacing: 8px;
+		letter-spacing: 2px;
 	}
 	.agileits-banner-info {
 		padding: 11em 0 0em;
