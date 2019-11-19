@@ -15,5 +15,13 @@ def contact(request):
 def cancerTypes(request):
     return render(request, 'cancerTypes.html')
 
+def cancer(request):
+    return render(request, 'cancer.html')
+
+def treatment(request):
+    return render(request, 'treatment.html')
+
+def cancerclassification(request):
+    return render(request, 'cancerclassification.html')
 
 

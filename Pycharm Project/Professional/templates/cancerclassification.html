@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load static from staticfiles %}
+{% block title %}Document{% endblock %}
+{%  block classify %}
+        <br/>
+        <br/>
+
+    <h1 style="text-align: center">Cancer Analysis</h1>
+    <br/>
+    <form method="post">
+    {% csrf_token %}
+    {{ form }}
+        <br/>
+        <br/>
+    <button type="submit" class="btn btn-success" style="    margin: 0 150px;
+    background: white;
+    border-color: black;
+    color: black;
+    font-size: 1.25em;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: normal;
+    letter-spacing: 2px;"> Save </button>
+    </form>
+
+    <style>
+    .myfieldclass
+    {
+        font-size: 20px;
+        border: 1px solid black;
+        text-align: left;
+        margin-left: 0;
+        margin-right: 100%;
+        padding: 3px;
+        border-radius: 15px;
+    }
+    </style>
+
+{% endblock %}

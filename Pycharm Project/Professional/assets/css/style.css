@@ -367,7 +367,7 @@ ul.top_agile_w3l_info_icons i {
 /*--//slider --*/
 /*-- banner-top --*/
 .w3layouts-banner-top{
-    background: url(../images/cancer1.jpg) no-repeat 0px 0px;
+    background: url(../images/banner.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -376,7 +376,7 @@ ul.top_agile_w3l_info_icons i {
 	min-height:700px;
 }
 .w3layouts-banner-top1{
-	background: url(../images/cancerr.jpg) no-repeat 0px 0px;
+	background: url(../images/banner1.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -385,7 +385,7 @@ ul.top_agile_w3l_info_icons i {
 	min-height:700px;
 }
 .w3layouts-banner-top2{
-	background: url(../images/Capture.PNG) no-repeat 0px 0px;
+	background: url(../images/banner3.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -942,7 +942,7 @@ ul.social-icons .icon-border::after {
 	-ms-transform: scaleX(1);
 }
 .w3_agile_services_bottom_right_grid{
-	background: url(../images/cancer1.jpg) no-repeat 0px 0px;
+	background: url(../images/slid1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -950,7 +950,7 @@ ul.social-icons .icon-border::after {
     -o-background-size: cover;
 }
 .w3_agile_services_bottom_right_grid1{
-	background: url(../images/cancerr.jpg) no-repeat 0px 0px;
+	background: url(../images/slid2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -958,7 +958,7 @@ ul.social-icons .icon-border::after {
     -o-background-size: cover;
 }
 .w3_agile_services_bottom_right_grid2{
-	background: url(../images/Capture.PNG) no-repeat 0px 0px;
+	background: url(../images/slid3.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2993,7 +2993,7 @@ ul.agileits_social_list.two li {
 		margin: 0.1em 0 0.2em 0;
 	}
 	.banner1 {
-		background: url(../images/cancer1.jpg) no-repeat 0px 0px;
+		background: url(../images/cancerr.jpg) no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
